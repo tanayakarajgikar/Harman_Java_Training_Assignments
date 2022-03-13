@@ -1,8 +1,0 @@
-public class Bookmanagement {
-
-	public static void main(String[] args) {
-		BookStore bookStore=new BookStore("Harman", 10);
-		bookStore.sell("spring in action", 2);
-		bookStore.display();
-	}
-}
