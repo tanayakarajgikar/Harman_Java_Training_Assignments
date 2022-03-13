@@ -1,0 +1,8 @@
+public class Assignment2Q4sol {
+
+	public static void main(String[] args) {
+		Employee employee=new
+				CommissionEmployee(121, "abc", 3.1, 6000000);
+		System.out.println(employee.getPayment());
+	}
+}
