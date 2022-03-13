@@ -1,0 +1,13 @@
+public class AccountAssignment {
+
+	public static void main(String[] args) {
+		
+		Account account=new
+				SavingsAccount("tanaya", "123456789", 50000, 1, 5000);
+	
+		
+		Account account2=new 
+			CurrentAccount("karajgikar", "987654321", 100000, "ABCD123", 10000);
+		
+	}
+}
