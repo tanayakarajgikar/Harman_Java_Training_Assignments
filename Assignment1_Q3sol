@@ -1,0 +1,27 @@
+import java.util.Arrays;
+
+public class CopyOf
+	{
+		public static void main(String args[])
+		{
+			
+			int[] org = new int[] {24, 29 ,18};
+
+			System.out.println("Original Array");
+			for (int i = 0; i < org.length; i++)
+				System.out.print(org[i] + " ");
+
+			
+			int[] copy = Arrays.copyOf(org, 5);
+
+			
+			copy[3] = 10;
+			copy[4] = 11;
+
+			System.out.println("\nNew array copy after modifications:");
+			for (int i = 0; i < copy.length; i++)
+				System.out.print(copy[i] + " ");
+		}
+	}
+
+

@@ -1,0 +1,10 @@
+public class Assignment2Q5 {
+
+	public static void main(String[] args) {
+		Employee employee=new
+				CommissionEmployee(123, "abc", 2.1, 5000000);
+		Invoice invoice=new Invoice("A126", "Computer", 10, 4000);
+		
+		PaymentProcessingSystem.processPayment(employee);
+	}
+}

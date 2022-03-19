@@ -1,0 +1,8 @@
+public class Assignment2Q2sol {
+
+	public static void main(String[] args) {
+		BookStore bookStore=new BookStore("Harman", 5);
+		bookStore.sell("Let us C", 2);
+		bookStore.display();
+	}
+}
