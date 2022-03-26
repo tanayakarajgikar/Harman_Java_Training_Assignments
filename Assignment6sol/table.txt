@@ -1,0 +1,5 @@
+create database rajdemo1;
+use rajdemo1;
+create table books(id int not null primary key auto_increment, title varchar(100) not null,author varchar(100) not null, price double not null);
+insert into books(title, author, price) values ('java the complete refrence','abc',500);
+insert into books(title, author, price) values ('the secret','pqr',500);
